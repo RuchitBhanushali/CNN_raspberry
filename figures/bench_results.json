@@ -1,0 +1,16 @@
+[
+  {
+    "model": "VGG-16_gestures.tflite",
+    "input": "224x224",
+    "fps": 1.2,
+    "latency_ms": 863.1,
+    "rss_mb": 245.0
+  },
+  {
+    "model": "mobilenet_gestures.tflite",
+    "input": "160x160",
+    "fps": 83.2,
+    "latency_ms": 12.0,
+    "rss_mb": 119.1
+  }
+]
