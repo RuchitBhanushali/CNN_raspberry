@@ -1,0 +1,4 @@
+mv /path/to/.gitignore CNN_raspberry/
+git add .gitignore
+git commit -m "Add .gitignore (exclude gesture_data and build artefacts)"
+git push
