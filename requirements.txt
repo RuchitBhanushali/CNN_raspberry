@@ -1,0 +1,9 @@
+# Core
+tensorflow==2.21.*          # desktop – falls back to tf-lite runtime
+tflite-runtime==2.21.*      # Pi – installed only when available
+opencv-python
+picamera2                   # Pi only, pip skip on Windows
+numpy<2                     # for Pi OpenCV wheel
+scikit-learn
+pillow
+matplotlib
